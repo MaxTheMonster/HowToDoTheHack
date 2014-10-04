@@ -9,6 +9,8 @@
 	<a href="#">Sign Up</a>
 </ul>
 </center>
-<input  placeholder="Search..." type="text" class="search"><button value="Search" class="button">Search</button>
+<input  placeholder="Search..." type="text" class="search">
+
+<button value="Search" class="button">Search</button>
 </div>
 </html>

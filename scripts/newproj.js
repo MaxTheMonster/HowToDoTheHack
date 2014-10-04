@@ -1,0 +1,60 @@
+var $lang = $("<select name="Language">
+    <option value="">Select language</option>
+    <option value="C">C</option>
+    <option value="C++">C++</option>
+    <option value="C#">C#</option>
+    <option value="Clojure">Clojure</option>
+    <option value=".NET">.NET</option>
+    <option value="Eiffel">Eiffel</option>
+    <option value="Erlang">Erlang</option>
+    <option value="Go">Go</option>
+    <option value="Groovy">Groovy</option>
+    <option value="Haskell">Haskell</option>
+    <option value="HTML">HTML</option>
+    <option value="Java">Java</option>
+    <option value="JavaScript">Java Script</option>
+    <option value="Lisp">Lisp</option>
+    <option value="Logo">Logo</option>
+    <option value="Objective C">Objective C</option>
+    <option value="PHP">PHP</option>
+    <option value="Processing">Processing</option>
+    <option value="Prolog">Prolog</option>
+    <option value="Python">Python</option>
+    <option value="R">R</option>
+    <option value="Ruby">Ruby</option>
+    <option value="Scala">Scala</option>
+    <option value="Scratch">Scratch</option>
+    <option value="SQL">SQL</option>
+    <option value="Other">Other</option>
+    </select>");
+var frame;
+
+$("#addlang").append("<select name=\"Language\">
+    <option value=\"\">Select language</option>
+    <option value=\"C\">C</option>
+    <option value=\"C++\">C++</option>
+    <option value=\"C#\">C#</option>
+    <option value=\"Clojure\">Clojure</option>
+    <option value=\".NET\">.NET</option>
+    <option value=\"Eiffel\">Eiffel</option>
+    <option value=\"Erlang\">Erlang</option>
+    <option value=\"Go\">Go</option>
+    <option value=\"Groovy\">Groovy</option>
+    <option value=\"Haskell\">Haskell</option>
+    <option value=\"HTML\">HTML</option>
+    <option value=\"Java\">Java</option>
+    <option value=\"JavaScript\">Java Script</option>
+    <option value=\"Lisp\">Lisp</option>
+    <option value=\"Logo\">Logo</option>
+    <option value=\"Objective C\">Objective C</option>
+    <option value=\"PHP\">PHP</option>
+    <option value=\"Processing\">Processing</option>
+    <option value=\"Prolog\">Prolog</option>
+    <option value=\"Python\">Python</option>
+    <option value=\"R\">R</option>
+    <option value=\"Ruby\">Ruby</option>
+    <option value=\"Scala\">Scala</option>
+    <option value=\"Scratch\">Scratch</option>
+    <option value=\"SQL\">SQL</option>
+    <option value=\"Other\">Other</option>
+    </select>");
