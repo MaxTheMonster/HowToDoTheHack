@@ -1,0 +1,39 @@
+@font-face {font-family:
+    'RaphaelIcons';
+    src:
+    url('raphaelicons-webfont.eot');
+    src:
+    local('☺'), url('../Fonts/raphaelicons-webfont.woff') format('woff'), url('../Fonts/raphaelicons-webfont.ttf') format('truetype'), url('../Fonts/raphaelicons-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family:
+    'Entypo';
+    src:
+    url('entypo.eot');
+    src:
+    local('☺'), url('../Fonts/entypo.woff') format('woff'), url('../Fonts/entypo.ttf') format('truetype'), url('../Fonts/entypo.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iconR {
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'RaphaelIcons';
+    font-size: 1.1em;
+    position: relative;
+    top: 0.1em;
+    display: inline;
+}
+.iconE {
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Entypo';
+    font-size: 1.1em;
+    position: relative;
+    top: 0.1em;
+    display: inline;
+}

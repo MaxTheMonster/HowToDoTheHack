@@ -3,7 +3,7 @@ var $password = $("#password");
 var $confirmPassword = $("#confirm_password");
 
 //Hide hints
-//$("span").hide();
+$(".hint").hide();
 
 function isPasswordValid() {
   return $password.val().length > 8;

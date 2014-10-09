@@ -60,8 +60,6 @@
     </td>   
     </tr>
         
-       
-        
        <tr>
        <td><input type="submit" value="Sumbit Project" name="submit"></td>
         <td>&nbsp;</td>   
